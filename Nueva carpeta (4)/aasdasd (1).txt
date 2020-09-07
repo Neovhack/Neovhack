@@ -1,0 +1,292 @@
+HEAD:metadata
+<title></title>                                              titulo en la tab (se guarda en los fav de gogole y en el motot de busqueda)
+<link rel="name" href="link"></link>                         para referenciar links exteriores
+<meta charset="UTF-8">                                       que caracateres vas a usar
+<meta name="keywords" content="HTML, CSS, JavaScript">       define palabras para el motor de busqueda  
+<meta name="description" content="Free Web tutorials">       descripcion de tu pag
+<meta name="author" content="John Doe">                      autor
+<meta http-equiv="refresh" content="30">                     refresca el documento cada 30 seg (no agregar)
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> para que se vea bien en celu y pc
+<base href="primera parte del link" target="_blank">         especifica parte del link que vas a usar en el codigo (no sirve)
+
+Layout:     https://www.w3schools.com/html/html_layout.asp
+
+ELEMENTS:
+
+                 <header>                                    <header> - Defines a header for a document or a section (h1-6 logos)
+                   <nav>                                     <nav> - Defines a set of navigation links
+            <section>                                        <section> - Defines a section in a document
+                           <aside>                           <article> - Defines an independent, self-contained content
+            <article>                                        <aside> - Defines content aside from the content (like a sidebar)
+                                                             <footer> - Defines a footer for a document or a section
+                  <footer>                                   <details> - Defines additional details that the user can open and close on demand
+                                                             <summary> - Defines a heading for the <details> element
+                                                             <figure> - imagenes
+                                                             <figcaption> - descripcion de imagenes
+
+
+Formating
+<b> - Bold text                           (negrita)
+<strong> - Important text                 (negrita)
+<i> - Italic text                         (texto en diferente idioma, terminos, pensamientos)
+<em> - Emphasized text                    (enfatisar, agregar emocion)
+<mark> - Marked text                      (marca palabras en amarillo) 
+<small> - Smaller text                    (texto mas chiquito)
+<del> - Deleted text                      (lo tacha)
+<ins> - Inserted text                     (subraya)
+<sub> - Subscript text                    (texto chiquito abajo)
+<sup> - Superscript text                  (texto chiquito arriba)
+
+&nbsp                                      espacio (carracteres especiales https://www.w3schools.com/html/html_entities.asp) https://www.w3schools.com/html/html_symbols.asp emojis https://www.w3schools.com/html/html_emojis.asp
+<h1> </h1>                                 hasta el 6, de mayor a menor tamaño
+<p> <p/>                                   parrafos
+<hr>                                       (vacio, sin final) dividir la pag horizontalmente
+<br>                                       (vacio, sin final) salto de linea
+<pre> </pre>                               para que el texto salga tal y como lo escribiste
+<div>                                      usado para contener otros elemntos(bloques de color de info)
+<span>                                     como el anterior pero solo para palabars o frases
+<!--  -->                                  para comentar, sirve para debugear tmb
+<button onclick="">                        boton
+<blockquote cite:"link">                   citar de otros links (centra el texto)
+<q>                                        citas cortas, le agrega comillas
+<abbr title="palabra entera">abreviacion</abbr>  para abreviaciones, si pones el mouseencima sale lo de title
+<address>                                  direcciones, sale en italiano
+<cite>                                     citar el nombre de una obra, aparece en italic
+<bdo dir="rtl">                            se escribe de right to left
+<kbd>                                      escribir comandos de input (ctrl + S)
+<samp>                                     escribir comandos de output (presione f1)
+<code>                                     to define a piece of computer code
+<var>                                      variables matematicas
+
+Attributes (en el element inicial)
+
+lang:                                     especificalenguaje y cosas, junto al html
+<a href=""                                (links)
+<img src==""                              (source de la imagen)
+width="104"                               (anchura)
+height="600"                              (altura)
+alt="Girl with a jacket">                 (cambia la iamgen por texto en caso de que no se pueda mostrar)
+style="color:red"                         color, font, size, and font-size:50px(tamaño), etc
+title=""                                  (cuadno pones el mouse encima muestra lo que esta entre comillas)
+
+Class:
+<style>
+.nombreclass {css                       (se define el nombre con un .)
+}
+.nombreclass2 {css}
+ </style>
+
+se invoca: <h1  class="nombreclase nombreclase2"> solo separado por un espacio
+
+
+
+LINKS:
+<a href="www.www.ww" target= "_blank"(para que aparezca en una nueva pestaña)>this is a link <a/>       Link 
+<a href="default.asp"> <img src="smiley.gif"> </a>                                                      Imagen lleve a un link                  
+<p><a href="mailto:someone@example.com">Send email</a></p>                                              mail  
+<button onclick="document.location='LINK'">Nombre boton</button>                                        boton que lleva a link
+https://www.w3schools.com/html/html_links_colors.asp                                                    vambiar color de links
+title=""                                                                                                poner el mouse encima para info
+nombrar elemento: <h2 id="C4">Chapter 4</h2>  ir al elemento <a href="#C4">Jump to Chapter 4</a>        para salta a un putnoe specifico de la pagina:bookmark
+                                                                html_demo.html#C4 (para otra pag)
+<iframe src="link" style="height:200px;width:300px;" title="descripcion"></iframe>                      pagina dentro de la tuya
+                         "border:none;"                                                                 sin borde, se puede modificar el borde
+
+<iframe src="link" name="iframe_a" title="descripcion"></iframe>                                        con estas 2 podes agregar link que se muetran en la pag dentro de la pag
+<p><a href="link" target="iframe_a">W3Schools.com</a></p>                                               con el nombre, el target dirige hacia ahi
+
+
+
+Imagenes: style="width:100%;"(OBLIGATORIO: escala bien en todos los dispositivos)
+<figure>                                                                                                imagenes
+<figcaption                                                                                             descripcion de imagenes
+<img src="w3schools.jpg" alt="W3Schools.com" style="float:left/roght;width:104(anchura);width:104(anchura)">
+src=""                                                                                                  link de la imagen
+float:""                                                                                                izquierda o derecha
+style="width:100%;"                                                                                     (OBLIGATORIO: escala bien en todos los dispositivos)
+style="max-width:100%;height:auto;"                                                                     lo mismo pero sin exceder el tamaño de la imagen
+usemap:"#"                                                                                              hacer area de la imagen clickeables
+           <map name="workmap">
+                               <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                                            rectangulo, la 2 primeras coordenadas para una esquina y la otra para la contraria
+                               <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+                                                    las 2 priemras apra deifinir el centro del puntoy  la sgt para la anchura
+
+<div style="background-image: url('img_girl.jpg');"> </div>                                             poner imagen dentras de texto, para ponerlo en toda la pag, ponerlo en el body
+            background-repeat: no-repeat;                                                               paraq uqe mno se repita la imagen,body
+            background-attachment: fixed;  background-size: 100% 100%;                                  para que tape toda la pantalla, body
+ 
+Tablas:
+<tablestyle="width:100%(% de la pag que ocupa)"> </table>
+<tr>                                                           fila (izquieda)
+<th>                                                           header
+<td>                                                           columna (abajo)
+<th colspan="2">HEADER</th>                                    combinar filas
+<th rowspan="2">HEADER:</th>                                   combinar columna 
+<caption>Monthly savings</caption>                             Titulo de tabla
+table, th, td { border: 1px solid black;}                      definir borde (en <style> arriba)
+                border-collapse: collapse;                     borde unico
+                padding: 15px;                                 relleno de las celdas (hacerlas mas grandes)
+                text-align: right/left;                        mover el texto
+                border-spacing: 15px;                          espacio entre bordes
+                background-color:                              color de fonfo
+
+Listas:
+<ul  style="list-style-type:disc/circle/square/none"></ul>     listas sin orden (style cambia el icono) 
+<ol type="1/A/a/I/i"></ol start="number">                      orden numerico
+<il></il>                                                      items
+CSS<ul style="list-style-type:none; margin: 0;padding: 0;overflow: hidden;background-color: #333333;"> <li float: left;display: block;color: white;text-align: center;padding: 16px;text-decoration: none;>
+<dl></dl>                                                      lista descriptivas
+<dt></dt>                                                      items de listas descriptivas
+<dd></dd>                                                      descripcion
+
+
+Formularios:
+<form>                                                                          empezar un formulario
+
+INPUT TYPE: <input type="text" id="fname" name="fname"><br>
+<input type="text/checkbox/submit(boton)/button">                               distintos formularios
+<input type="radio" value="Si no pones esto no aparece la info en out">         seleccionar una opcion  
+<input type="password">                                                         contraseña
+<input type="color">                                                            contiene un color
+<input type="date">                                                             fechas
+<input type="datetime-local">                                                   fecha sin zona    
+<input type="email">                                                            emails
+<input type="file">                                                             subir archivos
+<input type="hidden">                                                         
+<input type="image">                                                         
+<input type="month">                                                            seleccionas un mes
+<input type="number" min="1" max="5">                                           solo para numeros con un rango               
+<input type="range" id="vol" name="vol" min="0" max="50">                       determina un rango con barra
+<input type="reset">                                                            boton para resetaear info (solo eso aparece un boton
+<input type="search">                                                           barra para buscar
+<input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}>                          seleccionar telefono
+<input type="time">                                                             seleccionar tiempo
+<input type="url">                                                              solo toma url                                               
+<input type="week">                                                             
+
+Atributos de input:
+
+value                                                        especifica el valor con el que comienza   
+readonly                                                     no se puede modificar 
+autofocus                                                    empieza el mouse en el que tenga esto
+required                                                     obligatorio   
+disabled                                                     no se puede usar
+size/maxlength /min-max(text,search,tel,url,email,and password.)tamaño (deafult:20)    
+multiple  (email, and file)                                  podes seleccionar varias o subir 
+pattern (text, date, search, url, tel, email, and password)  para ingresar solo X ej: pattern="[A-Za-z]{3}" title="Three letter country code"  
+placeholder="hint"                                           pista de lo que tiene que ingresar 
+step=""                                                      reglas que se tienen que cumpli(si pones 3, se pone 3 6 9 etc)                                                                                                                                       
+Form="id"                                                    indica a quien pertenece este input ( se le agrega id al form element y podes agregar un input fuera del form y linkearlo con el id)
+formaction="link"(funcona con input type=submit o image)     procesa la info/pisa al action (subir info com admin x ej)
+formenctype="multipart/form-data"(input type=submit o image) encripta la info, slo funciona con "post" (como esta escrito caclulo que es una forma de encriptar)
+formmethod="get/post"(input type=submit o image)             cambia el metodo de envio
+formtarget="_blank" (input type=submit o image)              cambia target, submit in a new tab
+formnovalidate="formnovalidate" (input type=submit)          evita la obligatoriedad de los campos (submit without validation)
+
+
+Atributos de form:
+
+target="_blank(new)/_self(same)/_parent(same)/_top(same full)/framename(new)"   donde mostrar la info
+method="get/post"                                                               metodo que usa para enviar info/en get se ve la info en el link (para bookmark) y en post no es mas seguro (no se puede bookmark)
+action="/action_page.php"                                                       action es para enviar la info a un sql                                                                                                                                   
+autocomplete="on"                                                               el autocompeltar  
+novalidate                                                                      no requiere validacion todo el form
+                                                                                                                                                                                                             
+EJ: <form action="/action_page.php" target="_blank" method="get">>                          
+           <label for="fname">First name:</label><br>
+           <input type="text" id="fname" name="fname" value="John"><br>     (Id y For siempre matchean para linkeo)
+           <label for="lname">Last name:</label><br>
+           <input type="text" id="lname" name="lname" value="Doe"><br><br>
+           <input type="submit" value="Submit">
+</form>
+
+Elementos de form:
+<label>                                                                         info 
+<input>
+
+<select>  <label for="cars">Choose a car:</label>                      lista para elegir
+             <select id="cars" name="cars" size="3" multiple>          
+               <option value="volvo" selected>Volvo</option> e         selected para que aparzca primera en la lista
+
+<form action="/action_page.php">                                       lista de opciones
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+
+<textarea name="message" rows="10" cols="30">                          Text area para input (con submit button
+<button type="button" onclick=""                                       boton 
+<fieldset>  <legend>                                                   encuadra lo qu eeste dentro (el otro es el titulo)
+<output>                                                               resultado de una cuenta
+
+VIDEO/AUDIO:formatos MP4	WebM	Ogg
+<video width="320" height="240" controls/autoplay>                   agrega interfaz al video/lo reproduce sin interfaz         
+  <source src="movie.mp4" type="video/mp4">                          2 source xq 1 es alternativo
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.                         el texto solo se muestra si no lo suportea
+</video>
+
+agegar un video desde youtube con iframe:
+
+<iframe width="420" height="345" src="link">                         para autoplay agregar ?autoplay=0/1
+</iframe>                                                            ?playlist=tgbNymZ7vqY&loop=0/1 para loop o playlist
+                                                                     ?controls=0/1 para interfaz
+
+<audio AUTOPLAY>	formatos :MP3	WAV	OGG
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+
+PLUG-INS: (ava applets, PDF readers, and Flash Players)
+
+<object data="audi.jpeg"></object>                                 sirve para usar un html detro
+<embed src="audi.jpeg">                                            lo mismo
+
+
+CSS
+Inline CSS: <tagname style="property:value;">  
+Internal CSS: <style>  body {background-color: powderblue; color: blue;} </style>
+External CSS:<head>  <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">  </head>
+
+<tagname style="property:value;">         ej: <body style="background-color:powderblue;">
+style="color:blue;"                       cambiar color de letra
+style="font-family:verdana;"              fuente de la letra
+style="font-size:300%/px;"                tamaño en % o en px
+style="text-align:center;"                posicionamiento
+padding: 30px;                            espacio entre parrafos
+margin: 50px;                             margen
+float:right                               que aparezca algo a la derecha
+style="font-size:5vw;"                    texto escala con tamalo del buscador
+@media screen and (max-width:800px) {     cambiar el diseño de algo po tamaño de pantalla (https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query)
+  .nombredeclase { 
+    width:100%; 
+  }
+
+
+CSS COLOR
+style="background-color:"                 COLOR FONDO
+style="color:;">                          color texto
+style="border: 2px solid Tomato;"         borde de color rodeando
+style="background-color:rgb(255, 0, 0);"> El 255: es rojo, el 0 es verde y el otro 0 es blue, combinas con un max de 256
+rgba(red, green, blue, alpha)             alpha es entre 0.0 y 1.0, mkarca la transparencia
+style="background-color:#ff0000;">        con hexa, internet
+hsl(hue, saturation, lightness)      
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
