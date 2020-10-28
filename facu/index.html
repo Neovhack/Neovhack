@@ -6,7 +6,8 @@
 	<title>Page Title</title>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
 	<link rel='stylesheet' type='text/css' href='boostrap/bootstrap-4.5.3-dist/bootstrap-4.5.3-dist/css/bootstrap.css'>
-    <link rel='stylesheet' type='text/css' href='styles2.css'>
+	<link rel='stylesheet' type='text/css' href='styles2.css'>
+	<script src="https://kit.fontawesome.com/4fca2191b6.js" crossorigin="anonymous"></script>
 	<script src='main.js'></script>
 </head>
 <body >
@@ -32,34 +33,34 @@
 		</div>
 	  </nav>
 	  <div class="jumbotron jumbotron-fluid">
-		<div style="text-align: center;" class="container">
+		<div class="textCenter container">
 			
 		  <img src="myAvatar.png" alt="Caricatura mia">
-		  <h2>NICOLAS BOLAND</h2>
-		  <p>Estudiando de desarrollo Web</p>
+		  <h2 class="textCenter">NICOLAS BOLAND</h2>
+		  <p class="textCenter">Estudiando de desarrollo Web</p>
 		  
 		
 		</div>
 	  </div>
-	  <div class="container back">
+	  <div class="back">
 		  <h2 class="port">PORTFOLIO</h2>
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-4">
               <figure>
-                <a href="index.html"> <img class="imagenes" src="homero.png" alt="yomismo"></a>
-                <figcaption>Proyecto 1</figcaption>
+                <a href="index.html"> <img  class="imagenes" src="homero.png" alt="yomismo"></a>
+                <figcaption class="port">Proyecto 1</figcaption>
               </figure>
             </div>
-            <div class="col-sm-4">
+            <div class="col-4">
                 <figure>
                     <a href="index.html"> <img class="imagenes"src="patos.jpg" alt="yomismo"></a>
-                <figcaption>Proytecto 2</figcaption>
+                <figcaption class="port">Proytecto 2</figcaption>
               </figure>
             </div>
-            <div class="col-sm-4">
+            <div class="col-4">
                 <figure>
                     <a href="index.html"> <img class="imagenes" src="dorime.jpg" alt="yomismo"></a>
-                <figcaption>Proyecto 3</figcaption>
+                <figcaption class="port">Proyecto 3</figcaption>
              </figure>
             </div>
         </div>
@@ -69,12 +70,12 @@
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	
-	<div>
-		<h2>Acerca de Mi</h2> <hr>
-		<p class="parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error nesciunt, optio odit porro molestias quidem accusamus vel unde neque perferendis reiciendis illo placeat a. Fugiat, ullam. Voluptate, accusantium asperiores. Nisi?</p>
+	<div class="acerca">
+		<h2 class="textCenter">Acerca de Mi</h2> <hr>
+		<p class="textCenter">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error nesciunt, optio odit porro molestias quidem accusamus vel unde neque perferendis reiciendis illo placeat a. Fugiat, ullam. Voluptate, accusantium asperiores. Nisi?</p>
 	</div>
 	<form style="padding-bottom: 40px" class="formPrueba">
-		<h2 style="padding-top: 50px;">CONTACTAME</h2> <hr style="padding-left: 40px;">
+		<h2 class="textCenter" style="padding-top: 50px;">CONTACTAME</h2> <hr style="padding-left: 40px;">
 		<div class="form-group">
 			<label for="name">Nombre</label>
 			<input type="text" class="form-control" id="name" placeholder="Nombre">
@@ -88,19 +89,28 @@
 		  <textarea class="form-control" id="comentarios" rows="3" placeholder="Comentarios"></textarea>
 		</div>
 	  </form>
-	  <div class="container">
+	  <div class="textCenter footer">
 		  <div class="row">
-			  <div class="col-sm-6">
+			  <div class="col-6">
 				  DIRECCION <br>
-				  DIRECCION <br>
-				  DIRECCION <br>
+				  Eva peron 1624 <br>
+				  C.A.B.A. <br>
 			  </div>
-			  <div class="col-sm-6">
-				  EN LAS REDES
+			  <div class="col-6">
+				  EN LAS REDES <br>
+				 <a href="https://www.facebook.com/nicolas.boland/"><i class="fab fa-facebook-square fa-3x"></i> </a>
+				 <a href="https://twitter.com/SDALKFJAS"><i class="fab fa-twitter-square fa-3x"></i> </a>
+				 <a href="https://www.instagram.com/nicoboland/?hl=es-la"><i class="fab fa-instagram-square fa-3x"></i> </a>
 			  </div>
 		  </div>
-
-	  </div>
+		</div>
+		  <div class=" footer2">
+			  <div class="row">
+				  <div class="col-12">
+					  Copyright
+				  </div>
+			  </div>
+		  </div>
 </body>
 
 </html>

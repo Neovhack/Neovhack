@@ -31,14 +31,16 @@
     background-color: white;
 }
 .imagenes {
-    margin-top: 250px;
-    border: 2px solid violet;
+    margin-top: 90px;
+    border: 2px solid #D1462F;
     border-radius: 10px 10px 10px 10px ;
-    padding-right: 10px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
 }
 .back {
-    background-color: violet;
-    width: 100%;
+    background-color: #D1462F;
+    padding: 50px;
 }
 .port {
     text-align: center;
@@ -46,22 +48,12 @@
 figcaption {
     text-align: center;
 }
-h2 {
-  text-align: center;
-}
-.parrafo {
-  text-align: center;
-  position: relative;
-  left: 350px;
-  width: 50%;
-
-}
-body {
-  margin: 10px;
+.acerca {
+  margin: 150px;
+  
 }
 .formPrueba {
   background-color: tomato;
-
 }
 .form-control {
   width: 90%;
@@ -74,4 +66,19 @@ body {
   margin-right: 40px;
   margin-bottom: 40px;
  
+}
+.footer {
+  background-color: #A9A9A9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer2 {
+  background-color: #696969;
+}
+.col-12 {
+  padding-left: 500px;
+}
+.textCenter {
+  align-content: center;
+  text-align: center;
 }
