@@ -12,19 +12,22 @@
 </head>
 <body >
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Nicolas Boland</a>
+		<a class="navbar-brand" href="#intro">Nicolas Boland</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
 		</button>
 	  
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		  <ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
-			  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			<li class="nav-item">
+			  <a class="nav-link" href="#portFolio">Portfolio <span class="sr-only">(current)</span></a>
 			</li>
 			<li class="nav-item">
-			  <a class="nav-link" href="#">Link</a>
+			  <a class="nav-link" href="#acerca">Acerca de mi</a>
 			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contacto">Contacto</a>
+			  </li>
 		  </ul>
 		  <form class="form-inline my-2 my-lg-0">
 			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -32,7 +35,7 @@
 		  </form>
 		</div>
 	  </nav>
-	  <div class="jumbotron jumbotron-fluid">
+	  <div id="intro" class="jumbotron jumbotron-fluid">
 		<div class="textCenter container">
 			
 		  <img src="myAvatar.png" alt="Caricatura mia">
@@ -42,7 +45,7 @@
 		
 		</div>
 	  </div>
-	  <div class="back">
+	  <div id="portFolio" class="back">
 		  <h2 class="port">PORTFOLIO</h2>
         <div class="row">
             <div class="col-4">
@@ -70,17 +73,17 @@
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	
-	<div class="acerca">
+	<div id="acerca" class="acerca">
 		<h2 class="textCenter">Acerca de Mi</h2> <hr>
 		<p class="textCenter">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error nesciunt, optio odit porro molestias quidem accusamus vel unde neque perferendis reiciendis illo placeat a. Fugiat, ullam. Voluptate, accusantium asperiores. Nisi?</p>
 	</div>
-	<form style="padding-bottom: 40px" class="formPrueba">
+	<form id="contacto" style="padding-bottom: 40px" class="formPrueba">
 		<h2 class="textCenter" style="padding-top: 50px;">CONTACTAME</h2> <hr style="padding-left: 40px;">
 		<div class="form-group">
 			<label for="name">Nombre</label>
 			<input type="text" class="form-control" id="name" placeholder="Nombre">
 		  <label for="mail">Email </label>
-		  <input type="email" class="form-control" id="tel" placeholder="Numero de telefono">
+		  <input type="email" class="form-control" id="tel" placeholder="Mail">
 		  <label for="tel">Numero de Telefono </label>
 		  <input type="tel" class="form-control" id="tel" placeholder="Numero de telefono">
 		</div>
@@ -91,7 +94,7 @@
 	  </form>
 	  <div class="textCenter footer">
 		  <div class="row">
-			  <div class="col-6">
+			  <div class="col-6 letraBlanca">
 				  DIRECCION <br>
 				  Eva peron 1624 <br>
 				  C.A.B.A. <br>
@@ -107,7 +110,7 @@
 		  <div class=" footer2">
 			  <div class="row">
 				  <div class="col-12">
-					  Copyright
+					Mensaje de Copyright
 				  </div>
 			  </div>
 		  </div>
