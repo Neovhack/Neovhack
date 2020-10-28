@@ -68,12 +68,14 @@ figcaption {
  
 }
 .footer {
-  background-color: #A9A9A9;
+  background-color: #708090;
   padding-top: 50px;
   padding-bottom: 50px;
+  color: white;
 }
 .footer2 {
-  background-color: #696969;
+  background-color: #000000;
+  color: white;
 }
 .col-12 {
   padding-left: 500px;
@@ -81,4 +83,7 @@ figcaption {
 .textCenter {
   align-content: center;
   text-align: center;
+}
+.letraBlanca{
+  color: white;
 }
