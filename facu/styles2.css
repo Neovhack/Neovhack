@@ -1,0 +1,77 @@
+.bg-light {
+    background-color: #52474d !important;
+   
+  }
+  .nav-link:hover, .nav-link:focus {
+   background-color: #91868c;
+  }
+  .navbar-brand:hover, .navbar-brand:focus {
+     background-color: #91868c;
+     text-decoration: white;
+  }
+
+
+
+  .navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+  color:white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.jumbotron {
+    background-color: white;
+}
+.imagenes {
+    margin-top: 250px;
+    border: 2px solid violet;
+    border-radius: 10px 10px 10px 10px ;
+    padding-right: 10px;
+}
+.back {
+    background-color: violet;
+    width: 100%;
+}
+.port {
+    text-align: center;
+}
+figcaption {
+    text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.parrafo {
+  text-align: center;
+  position: relative;
+  left: 350px;
+  width: 50%;
+
+}
+body {
+  margin: 10px;
+}
+.formPrueba {
+  background-color: tomato;
+
+}
+.form-control {
+  width: 90%;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  
+}
+.form-group {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+ 
+}

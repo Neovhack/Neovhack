@@ -1,0 +1,15 @@
+img {
+    margin-top: 250px;
+    border: 2px solid violet;
+    border-radius: 10px 10px 10px 10px ;
+    padding-right: 10px;
+}
+body {
+    background-color: violet;
+}
+h1 {
+    text-align: center;
+}
+figcaption {
+    text-align: center;
+}
