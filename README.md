@@ -10,7 +10,11 @@
 
 - 🌱 I have a personal page showing data from an API call breed-dogs  
   
-- Learning TypeScript   
+- ✔️ Learning TypeScript   
+
+- 📲 Contact Information
+Linkedin: https://www.linkedin.com/in/nicolas-boland-537848148/
+Email: nnnicoboland@hotmail.com
 
 <br/>  
 
