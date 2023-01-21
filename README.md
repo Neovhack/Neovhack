@@ -1,8 +1,5 @@
 
-### Nicolas Boland  
-<div align="center">
-<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
-</div>  
+### Hi there!
   
 
 ### <div align="center">I'm Nicolas, a full-stack developer working on some personal project</div>  
